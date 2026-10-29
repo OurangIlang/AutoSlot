@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoSlot</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ya</string>
+    <string name="no">Batal</string>
+
+    <string name="form_title">Pendaftaran Servis</string>
+    <string name="form_hint_long_press">Tekan lama judul di atas untuk aksi cepat</string>
+    <string name="section_data">Data Kendaraan</string>
+    <string name="btn_quick">Isi Cepat ▾</string>
+    <string name="label_owner">Nama Pemilik</string>
+    <string name="hint_owner">Masukkan nama pemilik</string>
+    <string name="label_plate">Nomor Plat Kendaraan</string>
+    <string name="hint_plate">Contoh: B 1234 XYZ</string>
+    <string name="label_vehicle">Jenis Kendaraan</string>
+    <string name="vehicle_car">Mobil</string>
+    <string name="vehicle_motor">Motor</string>
+    <string name="label_service">Layanan Servis</string>
+    <string name="label_slot">Slot Jam Kedatangan</string>
+    <string name="preview_empty">Pilih layanan untuk melihat estimasi durasi dan biaya.</string>
+    <string name="preview_format">%1$s\nEstimasi durasi: %2$s\nEstimasi biaya: %3$s</string>
+    <string name="cb_remember">Ingat data saya</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_book">Buat Booking</string>
+
+    <string-array name="service_entries">
+        <item>Pilih layanan...</item>
+        <item>Ganti Oli Cepat (30 menit | Rp 150.000)</item>
+        <item>Servis Ringan / Tune Up (60 menit | Rp 250.000)</item>
+        <item>Servis Berkala Lengkap (120 menit | Rp 500.000)</item>
+    </string-array>
+    <string-array name="slot_entries">
+        <item>Pilih jam kedatangan...</item>
+        <item>08:00</item>
+        <item>10:00</item>
+        <item>13:00</item>
+        <item>15:00</item>
+    </string-array>
+
+    <string name="error_owner_empty">Nama pemilik wajib diisi</string>
+    <string name="error_owner_short">Nama minimal 3 karakter</string>
+    <string name="error_plate_empty">Nomor plat wajib diisi</string>
+    <string name="error_plate_invalid">Format plat tidak valid (contoh: B 1234 XYZ)</string>
+    <string name="error_service_empty">Pilih jenis layanan</string>
+    <string name="error_slot_empty">Pilih jam kedatangan</string>
+    <string name="error_duplicate_booking">Plat ini sudah punya booking pada jam tersebut</string>
+    <string name="toast_form_invalid">Form belum lengkap, periksa kembali isian Anda</string>
+    <string name="toast_no_last_data">Belum ada data terakhir tersimpan</string>
+
+    <string name="menu_history">Riwayat</string>
+    <string name="menu_dark_mode">Mode Gelap</string>
+    <string name="menu_clear_data">Reset Data Aplikasi</string>
+    <string name="menu_about">Tentang AutoSlot</string>
+    <string name="context_title">Pilih Aksi</string>
+    <string name="ctx_clear_form">Bersihkan Form</string>
+    <string name="ctx_fill_sample">Isi Data Contoh</string>
+    <string name="pop_use_last">Pakai Data Terakhir</string>
+    <string name="pop_sample_car">Contoh Mobil</string>
+    <string name="pop_sample_motor">Contoh Motor</string>
+
+    <string name="onboarding_title">Selamat Datang di AutoSlot</string>
+    <string name="onboarding_message">Daftarkan servis kendaraan Anda, pilih jam kedatangan, lalu dapatkan tiket antrean tanpa antre manual.\n\nTips: gunakan tombol Isi Cepat atau tekan lama judul form untuk aksi cepat.</string>
+    <string name="about_title">Tentang AutoSlot</string>
+    <string name="about_message">AutoSlot v1.0\nSistem Penjadwalan dan Booking Antrean Bengkel.\n\nDibuat untuk Evaluasi Tengah Semester - Pemrograman Aplikasi Bergerak.</string>
+    <string name="confirm_clear_title">Reset Data Aplikasi</string>
+    <string name="confirm_clear_message">Seluruh riwayat booking dan pengaturan tersimpan akan dihapus. Lanjutkan?</string>
+    <string name="toast_data_cleared">Data aplikasi dihapus</string>
+
+    <string name="history_title">Riwayat Booking</string>
+    <string name="history_hint">Ketuk untuk melihat tiket, tekan lama untuk opsi</string>
+    <string name="history_empty">Belum ada riwayat booking</string>
+    <string name="ctx_view_ticket">Lihat Tiket</string>
+    <string name="ctx_delete">Hapus Booking</string>
+    <string name="menu_clear_history">Hapus Semua Riwayat</string>
+    <string name="confirm_clear_history_title">Hapus Semua Riwayat</string>
+    <string name="confirm_clear_history_message">Semua riwayat booking akan dihapus. Lanjutkan?</string>
+    <string name="toast_deleted">Booking dihapus</string>
+
+    <string name="ticket_title">Tiket Antrean</string>
+    <string name="ticket_header">TIKET ANTREAN BENGKEL</string>
+    <string name="ticket_note">Tunjukkan kode booking ini kepada petugas saat tiba di bengkel.</string>
+    <string name="ticket_queue_format">Antrean No. %1$s  |  Jam %2$s</string>
+    <string name="section_customer">Data Pelanggan</string>
+    <string name="section_service">Detail Layanan</string>
+    <string name="section_cost">Rincian Biaya</string>
+    <string name="row_owner">Nama Pemilik</string>
+    <string name="row_plate">Nomor Plat</string>
+    <string name="row_vehicle">Jenis Kendaraan</string>
+    <string name="row_package">Paket Layanan</string>
+    <string name="row_slot">Jam Kedatangan</string>
+    <string name="row_duration">Estimasi Durasi</string>
+    <string name="row_created">Dibuat Pada</string>
+    <string name="row_total">Estimasi Biaya</string>
+    <string name="btn_more">Aksi ▾</string>
+    <string name="btn_new_booking">Buat Booking Baru</string>
+    <string name="pop_share">Bagikan Tiket</string>
+    <string name="pop_copy">Salin Kode Booking</string>
+    <string name="share_chooser">Bagikan tiket melalui</string>
+    <string name="toast_copied">Kode booking disalin</string>
+    <string name="toast_invalid_ticket">Data tiket tidak ditemukan</string>
+
+    <!-- Autentikasi -->
+    <string name="login_title">Masuk ke AutoSlot</string>
+    <string name="login_subtitle">Masuk untuk membuat booking servis kendaraan Anda</string>
+    <string name="label_username">Username</string>
+    <string name="hint_username">Masukkan username</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Masukkan password</string>
+    <string name="cb_show_password">Tampilkan password</string>
+    <string name="btn_login">Masuk</string>
+    <string name="link_forgot">Lupa Password?</string>
+    <string name="link_register">Daftar Akun</string>
+    <string name="error_username_empty">Username wajib diisi</string>
+    <string name="error_username_invalid">Username 4-20 karakter: huruf, angka, titik, atau underscore</string>
+    <string name="error_username_taken">Username sudah dipakai</string>
+    <string name="error_username_not_found">Username tidak ditemukan</string>
+    <string name="error_password_empty">Password wajib diisi</string>
+    <string name="error_password_short">Password minimal 6 karakter</string>
+    <string name="error_login_failed">Username atau password salah</string>
+    <string name="toast_welcome">Selamat datang, %1$s!</string>
+    <string name="greeting_format">Halo, %1$s</string>
+
+    <string name="register_title">Daftar Akun</string>
+    <string name="label_fullname">Nama Lengkap</string>
+    <string name="hint_fullname">Masukkan nama lengkap</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="hint_confirm_password">Ulangi password</string>
+    <string name="error_confirm_mismatch">Konfirmasi password tidak sama</string>
+    <string name="label_question">Pertanyaan Keamanan (untuk reset password)</string>
+    <string name="label_answer">Jawaban Keamanan</string>
+    <string name="hint_answer">Masukkan jawaban Anda</string>
+    <string name="error_question_empty">Pilih pertanyaan keamanan</string>
+    <string name="error_answer_short">Jawaban minimal 2 karakter</string>
+    <string name="btn_register">Daftar</string>
+    <string name="toast_register_success">Akun berhasil dibuat, silakan masuk</string>
+    <string-array name="security_questions">
+        <item>Pilih pertanyaan...</item>
+        <item>Apa nama hewan peliharaan pertama Anda?</item>
+        <item>Di kota mana ibu Anda lahir?</item>
+        <item>Apa nama sekolah dasar Anda?</item>
+        <item>Apa merek kendaraan pertama Anda?</item>
+    </string-array>
+
+    <string name="forgot_title">Lupa Password</string>
+    <string name="forgot_desc">Masukkan username Anda, lalu jawab pertanyaan keamanan yang dipilih saat mendaftar.</string>
+    <string name="btn_find_account">Cari Akun</string>
+    <string name="label_security_question">Pertanyaan Keamanan</string>
+    <string name="label_new_password">Password Baru</string>
+    <string name="hint_new_password">Minimal 6 karakter</string>
+    <string name="error_answer_wrong">Jawaban keamanan salah</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="toast_reset_success">Password berhasil diubah, silakan masuk</string>
+
+    <string name="menu_logout">Keluar</string>
+    <string name="confirm_logout_title">Keluar</string>
+    <string name="confirm_logout_message">Anda yakin ingin keluar dari akun ini?</string>
+</resources>

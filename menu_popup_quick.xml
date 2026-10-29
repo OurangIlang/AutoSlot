@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/pop_use_last" android:title="@string/pop_use_last" />
+    <item android:id="@+id/pop_sample_car" android:title="@string/pop_sample_car" />
+    <item android:id="@+id/pop_sample_motor" android:title="@string/pop_sample_motor" />
+</menu>
